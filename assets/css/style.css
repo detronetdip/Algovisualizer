@@ -1,0 +1,176 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #edf1f4;
+}
+
+body header {
+  height: 8rem;
+  width: 100%;
+  padding: 0 2rem;
+  background-color: #011730;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body header h1 {
+  font-size: 2.5rem;
+  color: #fff;
+}
+
+body .oct {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .oct #container {
+  min-width: 62rem;
+  height: 38rem;
+  position: relative;
+}
+
+body .oct #container .bar {
+  width: 15px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background-color: #15975b;
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
+}
+
+body .oct #container .bar span {
+  position: inherit;
+  top: -20px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  font-size: 1.5rem;
+}
+
+body .btnbox {
+  padding: 0 2rem;
+  margin: 2rem 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .btnbox .ctbx {
+  height: 15rem;
+  width: 42%;
+  background-color: #fff;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  border-radius: 4px;
+  padding: 0.5rem;
+}
+
+body .btnbox .ctbx button {
+  border: none;
+  outline: none;
+  padding: 0.8rem;
+  margin: 0 1rem;
+  cursor: pointer;
+  border-radius: 4px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .btnbox .ctbx button svg {
+  margin-right: 0.8rem;
+}
+
+body .btnbox .ctbx .regens {
+  background-color: #0a47ee;
+  color: #fff;
+  margin-left: 1rem;
+}
+
+body .btnbox .ctbx .rgd {
+  background-color: #0a52ee;
+  color: #fff;
+}
+
+body .btnbox .ctbx .custom {
+  background-color: #ee780a;
+  color: #fff;
+}
+
+body .btnbox .ctbx .is {
+  background-color: #07cc6a;
+  color: #fff;
+}
+
+body .btnbox .ctbx .ss {
+  background-color: #ee840a;
+  color: #fff;
+}
+
+body .btnbox .btnbox2 {
+  padding: 0 2rem;
+  margin: 2rem 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .btnbox .btnbox2 button {
+  border: none;
+  outline: none;
+  padding: 0.8rem;
+  margin: 0 1rem;
+  cursor: pointer;
+  border-radius: 4px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .btnbox .btnbox2 button svg {
+  margin-right: 0.8rem;
+}
+
+body .btnbox .btnbox2 .regen {
+  background-color: #0a47ee;
+  color: #fff;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Algo Visualizer</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <header> 
+      <h1>V-Algo</h1>
+    </header>
+    <div class="oct">
+      <div id="container"></div>
+    </div>
+    <div class="btnbox">
+      <div class="ctbx">
+        <div class="btnbox2">
+          <select name="algo" id="algon">
+            <option value="bs">Bubble Sort</option>
+            <option value="ss">Selection Sort</option>
+            <option value="is">Insertion Sort</option>
+            <option value="qs">Quick Sort</option>
+          </select>
+          <button class="regens" onclick="getname()">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="20px"
+              viewBox="0 0 24 24"
+              width="20px"
+              fill="#fff"
+            >
+              <path d="M0 0h24v24H0V0z" fill="none" />
+              <path d="M10 8.64L15.27 12 10 15.36V8.64M8 5v14l11-7L8 5z" />
+            </svg>
+
+            Start
+          </button>
+        </div>
+        <div class="btnbox2">
+          <button class="rgd" id="ren" onclick="createGraphBar()">
+            <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="20px" viewBox="0 0 24 24" width="20px" fill="#fff">
+                <g>
+                    <rect fill="none" height="24" width="24" />
+                    <rect fill="none" height="24" width="24" />
+                    <rect fill="none" height="24" width="24" />
+                </g>
+                <g>
+                    <g />
+                    <path d="M12,5V1L7,6l5,5V7c3.31,0,6,2.69,6,6s-2.69,6-6,6s-6-2.69-6-6H4c0,4.42,3.58,8,8,8s8-3.58,8-8S16.42,5,12,5z" />
+                </g>
+            </svg>
+            
+            Regenerate Data
+          </button>
+          <!-- <button class="custom" id="ren" onclick="createGraphBar()">
+            <svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 0 24 24" width="20px" fill="#fff">
+                <path d="M0 0h24v24H0V0z" fill="none" />
+                <path d="M22.61 18.99l-9.08-9.08c.93-2.34.45-5.1-1.44-7C9.79.61 6.21.4 3.66 2.26L7.5 6.11 6.08 7.52 2.25 3.69C.39 6.23.6 9.82 2.9 12.11c1.86 1.86 4.57 2.35 6.89 1.48l9.11 9.11c.39.39 1.02.39 1.41 0l2.3-2.3c.4-.38.4-1.01 0-1.41zm-3 1.6l-9.46-9.46c-.61.45-1.29.72-2 .82-1.36.2-2.79-.21-3.83-1.25C3.37 9.76 2.93 8.5 3 7.26l3.09 3.09 4.24-4.24-3.09-3.09c1.24-.07 2.49.37 3.44 1.31 1.08 1.08 1.49 2.57 1.24 3.96-.12.71-.42 1.37-.88 1.96l9.45 9.45-.88.89z" />
+            </svg>
+            Custom
+        </button> -->
+        </div>
+      </div>
+    </div>
+
+    <script src="assets/js/script.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>

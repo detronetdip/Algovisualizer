@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  background-color: #edf1f4;
+  header {
+    height: 8rem;
+    width: 100%;
+    padding: 0 2rem;
+    background-color: rgb(1, 23, 48);
+    display: flex;
+    align-items: center;
+    h1 {
+      font-size: 2.5rem;
+      color: #fff;
+    }
+  }
+  .oct {
+    display: flex;
+    justify-content: center;
+    #container {
+      min-width: 62rem;
+      height: 38rem;
+      position: relative;
+      .bar {
+        width: 15px;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        background-color: rgb(21, 151, 91);
+        transition: 0.1s;
+        span {
+          position: inherit;
+          top: -20px;
+          left: 50%;
+          transform: translateX(-50%);
+          font-size: 1.5rem;
+        }
+      }
+    }
+  }
+  .btnbox {
+    padding: 0 2rem;
+    margin: 2rem 0;
+    display: flex;
+    justify-content: center;
+    .ctbx {
+      height: 15rem;
+      width: 42%;
+      background-color: #fff;
+      box-shadow: 0 0 10px rgba($color: #000000, $alpha: 0.4);
+      border-radius: 4px;
+      padding: 0.5rem;
+      button {
+        border: none;
+        outline: none;
+        padding: 0.8rem;
+        margin: 0 1rem;
+        cursor: pointer;
+        border-radius: 4px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        svg {
+          margin-right: 0.8rem;
+        }
+      }
+      .regens {
+        background-color: rgb(10, 71, 238);
+        color: #fff;
+        margin-left: 1rem;
+      }
+      .rgd{
+        background-color: rgb(10, 82, 238);
+        color: #fff;
+      }
+      .custom{
+        background-color: rgb(238, 120, 10);
+        color: #fff;
+      }
+      .is {
+        background-color: rgb(7, 204, 106);
+        color: #fff;
+      }
+      .ss {
+        background-color: rgb(238, 132, 10);
+        color: #fff;
+      }
+    }
+    .btnbox2 {
+      padding: 0 2rem;
+      margin: 2rem 0;
+      display: flex;
+      justify-content: center;
+      button {
+        border: none;
+        outline: none;
+        padding: 0.8rem;
+        margin: 0 1rem;
+        cursor: pointer;
+        border-radius: 4px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        svg {
+          margin-right: 0.8rem;
+        }
+      }
+      .regen {
+        background-color: rgb(10, 71, 238);
+        color: #fff;
+      }
+    }
+  }
+}
